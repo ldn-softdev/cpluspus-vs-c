@@ -1,4 +1,4 @@
-> You probably get on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I make quite a bold statement about `C` and `C++`. This articale hopefully will clarify what I meant.
+> You probably got on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I made quite a bold statement about `C` and `C++`. This articale hopefully will clarify what I meant.
 
 # What really makes `C++` advantageous over `C`
 
