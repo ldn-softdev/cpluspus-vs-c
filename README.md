@@ -74,7 +74,7 @@ void green_func(void) {
 		        // the `global_color` in the constructor and reinstate its value in the destructor;
 			// the code of the PRESERVE macro is beyond the scope of this document though
  // set color to the required code
- color = GREEN;
+ global_color = GREEN;
 
  // ... do some stuff which would be dependent on color ...
  if(some_condition) return;
