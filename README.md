@@ -10,7 +10,7 @@ The difference I meant is a _programming methodology_ (ways a language offers to
 
 While `C` has received some updates (`C99`, `C11`, `C18`) all those were mostly facelifts. Those updates did not change much the programming methodology `C` offers, which up to date remains what it was when the language was created - _largely, a syntactic sugar for assembly language_. I know, that order of words may cause a great unrest in the `C` camp and I'm aware that `C` is not entirely a syntactic sugar - it has data types, stack/calls overheads dealt by the compiler, etc, but all what it has does not take the language too much far away from that definition even after all those updates.
 
-On the other hand, `C++` programming methodology evolves with almost every `C++` update (take `C++11` alone: among other things, introduction of a _move semantic_, _perfect forwarding_, _functional lambdas_ - reshaped c++ methodology - e.g., it introduced a whole new way of designing/writing software which could help avoiding resources leaks (memory leaks come here too) entirely
+On the other hand, `C++` programming methodology evolves with almost every `C++` update (take `C++11` alone: among other things, introduction of a _move semantic_, _perfect forwarding_, _functional lambdas_ - reshaped `C++` methodology - e.g., it introduced a whole new way of designing/writing software which could help avoiding resources leaks (memory leaks come here too) entirely
 > Clarification: given that such way of _idiomatic_ writing in `C++` would be largely based on the underlying libraries - `STL` and `Boost`, that statement is as good as leak-free `STL` and `Boost` are, which is a quite high certainty.
 
 That is the main idea behind my saying that today `C` is a flawed language. It does not mean that `C++` has no flaws, not at all, but it means that `C` is flawed much more (actually a big time) than `C++` when it comes down to a programming ideology and methodology.
@@ -90,7 +90,15 @@ That is just a single example of possible sources of bugs, but the number of suc
 
 The modern `C++` is possibly the most comprehensive language - it offers pretty much all programming paradigms: _procedural_, _imperative_, _OOP_, _functional_, _declarative_, _pure generic
 ([`TMP`](https://en.wikipedia.org/wiki/Template_metaprogramming))_.
-Based on those it's possible to achieve easily other models as well (e.g., _event-driven_). There's only a handful of other languages nearly as comprehensive as `C++`. But it's the ability to let creating an idiomatic code which is immune and resistant to human brain's flaws is the one aspect that sets it apart from the most of others and C particularly.
+Based on those it's possible to achieve easily other models as well (e.g., _event-driven_). There's only a handful of other languages nearly as comprehensive as `C++`. But it's the ability to let creating an idiomatic code which is immune and resistant to human brain's flaws is the one aspect that sets it apart from the most of others and `C` particularly.
+
+
+
+
+
+
+
+
 
 
 
