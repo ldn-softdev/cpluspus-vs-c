@@ -1,4 +1,4 @@
-> You probably got on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I made quite a bold statement about `C` and `C++`. This articale hopefully clarifies what I meant.
+> You probably got on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I made quite a bold statement about `C` and `C++`. This article hopefully clarifies what I meant.
 
 # What really makes `C++` superior to `C`
 
@@ -91,6 +91,8 @@ That is just a single example of possible sources of bugs, but the number of suc
 The modern `C++` is possibly the most comprehensive language - it offers pretty much all programming paradigms: _structured_, _imperative_, _OOP_, _functional_, _declarative_, _pure generic
 ([`TMP`](https://en.wikipedia.org/wiki/Template_metaprogramming))_.
 Based on those it's possible to achieve easily other models as well (e.g., _event-driven_). There's only a handful of other languages nearly as comprehensive as `C++`. But it's the ability to let creating an idiomatic code which is immune and resistant to human ability to make bugs (to some extend) is the one aspect that sets it apart from the most of others and from `C` particularly.
+
+
 
 
 
