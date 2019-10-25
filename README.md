@@ -88,7 +88,7 @@ As you see - that code above is immune to the pitfall of the `C` example, becaus
 
 That is just a single example of possible sources of bugs, but the number of such possibilities is countless, and in many cases `C++` offers a way to deal with it - i.e. eliminate the possibility of the potential problems (i.e., the shown way of relying on auto-destruction of automatic objects leaving the scope is not the only trick up the `C++`'s sleeve, there are plenty others).
 
-The modern `C++` is possibly the most comprehensive language - it offers pretty much all programming paradigms: _procedural_, _imperative_, _OOP_, _functional_, _declarative_, _pure generic
+The modern `C++` is possibly the most comprehensive language - it offers pretty much all programming paradigms: _structured_, _imperative_, _OOP_, _functional_, _declarative_, _pure generic
 ([`TMP`](https://en.wikipedia.org/wiki/Template_metaprogramming))_.
 Based on those it's possible to achieve easily other models as well (e.g., _event-driven_). There's only a handful of other languages nearly as comprehensive as `C++`. But it's the ability to let creating an idiomatic code which is immune and resistant to human brain's flaws is the one aspect that sets it apart from the most of others and `C` particularly.
 
