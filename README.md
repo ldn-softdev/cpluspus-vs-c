@@ -1,6 +1,6 @@
 > You probably got on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I made quite a bold statement about `C` and `C++`. This articale hopefully clarifies what I meant.
 
-# What really makes `C++` advantageous over `C`
+# What really makes `C++` superior to `C`
 
 > Remark: this article represents the author's opinion only and in no degree meant to claim the absolute verity. Feel totally free to agree or disagree with the opinion of the author.
 
