@@ -41,7 +41,8 @@ For the moment, let's leave aside an argument that such code is not concurrent-a
 ```C
 void green_func(void) {
  /* preserve externals state of the variable */
- Color preserved_color = global_color;
+ enum Color preserved_color = global_color;
+ 
  /* set color to the required cod */
  global_color = GREEN;
 
