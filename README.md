@@ -59,7 +59,7 @@ So, we arrive to a bug here: `global_color`'s state is not reinstated if the con
 
 Even in the future, after fixing that bug, if more of such conditions to be added to the code, _there's absolutely no guarantee_ that a person who would be doing that code change won't introduce exactly the same bug into the code.
 
-Now, the same code sample in `C++` could be written in (almost) exactly the same way, but that would be a `C`-way of writing a `C++` program. That's why when comparing `C` and `C++`, it must only be compared a `C`-way vs idiomatic `C++` way (the `C++`'s possibly biggest flaw is that it let creating `C`-style programs; the `C++`'s complexity then would come second - but `C++` evolves even in that aspect, e.g.: `C++17`'s introduction of fold expressions and update of `C++11`'s constexpr specifier simplifies 
+Now, the same code sample in `C++` could be written in (almost) exactly the same way, but that would be a `C`-way of writing a `C++` program. That's why when comparing `C` and `C++`, it must only be compared a `C`-way vs idiomatic `C++` way (the `C++`'s possibly biggest flaw is that it let creating `C`-style programs; the `C++`'s complexity then would come second, but `C++` evolves even in that aspect, e.g.: `C++17`'s introduction of fold expressions and update of `C++11`'s constexpr specifier simplifies 
 [`TMP`](https://en.wikipedia.org/wiki/Template_metaprogramming)
 a bit, there are many other enhancements too).
 
