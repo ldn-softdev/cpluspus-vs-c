@@ -42,9 +42,9 @@ For the moment, let's leave aside an argument that such code is not concurrent-a
 void green_func(void) {
  /* preserve externals state of the variable */
  enum Color preserved_color = global_color;
- 
- /* set color to the required cod */
- global_color = GREEN;
+
+ /* set color to the required code */
+ global_color = Green;
 
  /* ... do some stuff which would be dependent on color ... */
  if(some_condition) return;
