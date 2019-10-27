@@ -8,7 +8,7 @@ There's been many debates and holy wars between `C` and `C++` camps. I do not me
 
 The difference I meant is a _programming methodology_ (ways a language offers to write programs). When `C` was created (early 70's) it was someone may call a revolutionary and breaking through (which is true), but hey, take a look at the calendar, what year is it now? Since then the programming methodology has progressed by so much.
 
-While `C` has received some updates (`C99`, `C11`, `C18`) all those were mostly facelifts. Those updates did not change much the programming methodology `C` offers, which up to date remains what it was when the language was created - _largely, a syntactic sugar for assembly language_. I know, that order of words may cause a great unrest in the `C` camp and I'm aware that `C` is not entirely a syntactic sugar - it has data types, stack/calls overheads dealt by the compiler, etc, but all what it has does not take the language too much far away from that definition even after all those updates.
+While `C` has received some updates (`C99`, `C11`, `C18`) all those were mostly facelifts. Those updates did not change much the programming methodology `C` offers, which up to date remains what it was when the language was created - _largely, a syntactic sugar for an assembly language_. I know, that order of words may cause a great unrest in the `C` camp and I'm aware that `C` is not entirely a syntactic sugar - it has data types, stack/calls overheads dealt by the compiler, etc, but all what it has does not take the language too much far away from that definition even after all those updates.
 
 On the other hand, `C++` programming methodology evolves with almost every `C++` update (take `C++11` alone: among other things, introduction of a _move semantic_, _perfect forwarding_, _functional lambdas_ - reshaped `C++` methodology - e.g., it introduced a whole new way of designing/writing software which could help avoiding resources leaks (memory leaks come here too) entirely
 > Clarification: given that such way of _idiomatic_ writing in `C++` would be largely based on the underlying libraries - `STL` and `Boost`, that statement is as good as leak-free `STL` and `Boost` are, which is a quite high certainty.
@@ -56,11 +56,11 @@ void green_func(void) {
  return;
 }
 ```
-So, we arrive to a bug here: `global_color`'s state is not reinstated if the condition is hit. And this is the main flaw (IMO) - `C` offers no mechanism, no methodology to protect its code against one intrinsic property of a human brain: capacity to miss things (forget stuff, or speaking generally make errors - create bugs).
+So, we arrive to a bug here: `global_color`'s state is not reinstated if the condition is hit. And this is the main flaw (IMO): `C` offers no mechanism, no methodology to protect its code against one intrinsic property of a human brain: capacity to miss things (forget stuff, or speaking generally make errors - create bugs).
 
 Even in the future, after fixing that bug, if more of such conditions to be added to the code, _there's absolutely no guarantee_ that a person who would be doing that code change won't introduce exactly the same bug into the code.
 
-Now, the same code sample in `C++` could be written in (almost) exactly the same way, but that would be a `C`-way of writing a `C++` program. That's why when comparing `C` and `C++`, it must only be compared a `C`-way vs idiomatic `C++` way (the `C++`'s possibly biggest flaw is that it let creating `C`-style programs; the `C++`'s complexity then would come second, but `C++` evolves even in that aspect, e.g.: `C++17`'s introduction of fold expressions and update of `C++11`'s constexpr specifier simplifies 
+Now, the same code sample in `C++` could be written in (almost) exactly the same way, but that would be a `C`-way of writing a `C++` program. That's why when comparing `C` and `C++`, it must only be compared a `C`-way vs idiomatic `C++` way (the `C++`'s possibly biggest flaw is that it let creating `C`-style programs; the `C++`'s complexity then would come second, but `C++` evolves even in that aspect, e.g.: `C++17`'s introduction of _`fold expressions`_ and update of `C++11`'s _`constexpr`_ specifier simplifies 
 [`TMP`](https://en.wikipedia.org/wiki/Template_metaprogramming)
 a bit, there are many other enhancements too).
 
