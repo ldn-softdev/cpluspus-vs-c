@@ -73,7 +73,7 @@ Color global_color;
 void green_func(void) {
  PRESERVE(global_color)	// macro PRESERVE will expand into an object creation, which preserves the value of
 		        // the `global_color` in the constructor and reinstate its value in the destructor;
-			// the code of the PRESERVE macro is beyond the scope of this document though
+			// the code of the macro and the underlying class is beyond the scope of this document
  // set color to the required code
  global_color = GREEN;
 
