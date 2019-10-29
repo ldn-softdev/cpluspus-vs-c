@@ -85,7 +85,7 @@ void green_func(void) {
  return;
 }
 ```
-As you see - that code above is immune to the pitfall of the `C` example, because does not matter if you need to insert one or multiple conditions to leave the function (or even leaving it unintentionally, via exception/throw) - the restoration of the preserved variable/object will be taken care now automatically by the compiler and not by a human (the compiler will never miss to destroy an automatic object leaving the scope). 
+As you can see - that code above is immune to the pitfall of the `C` example, because does not matter if you need to insert one or multiple conditions to leave the function (or even leaving it unintentionally, via exception/throw) - the restoration of the preserved variable/object will be taken care now automatically by the compiler and not by a human (the compiler will never miss to destroy an automatic object leaving the scope). 
 
 That is just a single example of possible sources of bugs, but the number of such possibilities is countless, and in many cases `C++` offers a way to deal with it - i.e. eliminate the possibility of the potential problems (i.e., the shown way of relying on auto-destruction of automatic objects leaving the scope is not the only trick up the `C++`'s sleeve, there are plenty others).
 
