@@ -2,7 +2,8 @@
 
 # What really makes `C++` superior to `C`
 
-> Remark: this article represents the author's opinion only and in no degree meant to claim the absolute verity. Feel totally free to agree or disagree with the opinion of the author.
+> This article represents the author's opinion only and in no degree meant to claim the absolute verity. Feel totally free to agree or disagree with the opinion of the author.  
+> The article does not compare C++ to C (obviously the former is a superset over to the latter), but rather it provides a view on the programming methodology both languages can offer.
 
 There's been many debates and holy wars between `C` and `C++` camps. I do not mean to start another one, but I want to _highlight just one difference_, which, _IMO_ really sets `C++` apart from `C`. By the notion, I mean to show the advantage of `C++` in a very short article and explain it with a very basic and a simple example.
 
