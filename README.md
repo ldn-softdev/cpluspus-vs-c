@@ -1,6 +1,6 @@
 > You probably got on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I made quite a bold statement about `C` and `C++`. This article hopefully clarifies what I meant.
 
-# What really makes `C++` superior to `C`
+# What really makes `C++` superior to `C` and most of other bare metal languages 
 
 > This article represents the author's opinion only and in no degree meant to claim the absolute verity. Feel totally free to agree or disagree with the opinion of the author.  
 > The article does not compare C++ to C (obviously the former is a superset over to the latter), but rather it provides a view on the programming methodology both languages can offer.
@@ -86,6 +86,12 @@ void green_func(void) {
  return;
 }
 ```
+##
+If you're interested seeing how `PRESERVE` macro and the underlying class could be implemented, look in my
+[source](https://github.com/ldn-softdev/jtc/blob/master/lib/extensions.hpp#L199)
+for **`GUARD`** macro definition - it's a _polymorphic_ macro allowing safeguarding elements accessbile by address, or by respective
+_getter_ and _setter_ methods
+##
 As you can see - that code above is immune to the pitfall of the `C` example, because does not matter if you need to insert one or multiple conditions to leave the function (or even leaving it unintentionally, via _`exception`_/_`throw`_) - the restoration of the preserved variable/object will be taken care now automatically by the compiler and not by a human (the compiler will never miss to destroy an automatic object leaving the scope). 
 
 That is just a single example of possible sources of bugs, but the number of such possibilities is countless, and in many cases `C++` offers a way to deal with it - i.e. eliminate the possibility of the potential problems (the shown way of relying on auto-destruction of automatic objects leaving the scope is not the only trick up the `C++`'s sleeve, there are plenty others).
