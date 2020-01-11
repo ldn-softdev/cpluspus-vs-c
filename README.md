@@ -1,5 +1,12 @@
 > You probably got on this page from [jtc](https://github.com/ldn-softdev/jtc#programming-model), where I made quite a bold statement about `C` and `C++`. This article hopefully clarifies what I meant.
 
+<p align="right">
+- How to tell appart a good developer from a bad one?<br>
+- Easy! A good one takes time to cover his code with UT,<br>
+a bad one never does</br>
+</p>
+
+
 # What really makes `C++` superior to `C` and most of other bare metal languages 
 
 > This article represents the author's opinion only and in no degree meant to claim the absolute verity. Feel totally free to agree or disagree with the opinion of the author.  
