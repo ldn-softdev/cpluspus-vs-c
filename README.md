@@ -93,7 +93,7 @@ void green_func(void) {
 }
 ```
 ##
-If you're interested seeing how `PRESERVE` macro and the underlying class could be implemented, look in my
+> If you're interested seeing how `PRESERVE` macro and the underlying class could be implemented, look in my
 [source](https://github.com/ldn-softdev/jtc/blob/master/lib/extensions.hpp#L199)
 for **`GUARD`** macro definition - it's a _polymorphic_ macro allowing safeguarding elements accessbile by address, or by respective
 _getter_ and _setter_ methods
